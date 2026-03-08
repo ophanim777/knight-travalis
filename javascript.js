@@ -48,3 +48,5 @@ while (queue.length > 0) {
 
         return path;
     }
+
+    const nextMoves = getKnightMoves(position);

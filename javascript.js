@@ -21,5 +21,5 @@ for (let [dx, dy] of moves) {
         possibleMoves.push([newX, newY]);
       }
 }
-
+return possibleMoves;
 }

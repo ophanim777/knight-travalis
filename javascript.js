@@ -11,7 +11,7 @@ function isValidMove(x, y) {
 
 function getKnightMoves([x, y]) {
      const possibleMoves = [];
-}
+
 
 for (let [dx, dy] of moves) {
       const newX = x + dx;
@@ -38,7 +38,7 @@ while (queue.length > 0) {
 
     const current = queue.shift();
     const position = current.position;
-    const path = current.path;}
+    const path = current.path;
 
     if (position[0] === end[0] && position[1] === end[1]) {
 
@@ -62,3 +62,4 @@ while (queue.length > 0) {
           path: [...path, move]
         });
       }}
+    }}

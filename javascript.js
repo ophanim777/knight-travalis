@@ -26,3 +26,8 @@ return possibleMoves;
 
 const queue = [];
 const visited = new Set();
+
+queue.push({
+  position: start,
+  path: [start]
+});

@@ -56,4 +56,9 @@ while (queue.length > 0) {
       if (!visited.has(move.toString())) {
 
         visited.add(move.toString());
+
+        queue.push({
+          position: move,
+          path: [...path, move]
+        });
       }}

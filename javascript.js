@@ -33,3 +33,9 @@ queue.push({
 });
 
 visited.add(start.toString());
+
+while (queue.length > 0) {
+
+    const current = queue.shift();
+    const position = current.position;
+    const path = current.path;}

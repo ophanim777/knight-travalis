@@ -41,5 +41,10 @@ while (queue.length > 0) {
     const path = current.path;}
 
     if (position[0] === end[0] && position[1] === end[1]) {
+
         console.log(`You made it in ${path.length - 1} moves! Here's your path:`);
+
+        path.forEach(step => console.log(step));
+
+        return path;
     }

@@ -13,4 +13,9 @@ function getKnightMoves([x, y]) {
      const possibleMoves = [];
 }
 
+for (let [dx, dy] of moves) {
+      const newX = x + dx;
+      const newY = y + dy;
+}
+
 }

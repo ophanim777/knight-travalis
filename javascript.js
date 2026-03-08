@@ -25,3 +25,4 @@ return possibleMoves;
 }
 
 const queue = [];
+const visited = new Set();

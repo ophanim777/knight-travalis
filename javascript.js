@@ -23,3 +23,5 @@ for (let [dx, dy] of moves) {
 }
 return possibleMoves;
 }
+
+const queue = [];

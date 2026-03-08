@@ -31,3 +31,5 @@ queue.push({
   position: start,
   path: [start]
 });
+
+visited.add(start.toString());

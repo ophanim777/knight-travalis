@@ -16,6 +16,10 @@ function getKnightMoves([x, y]) {
 for (let [dx, dy] of moves) {
       const newX = x + dx;
       const newY = y + dy;
+
+      if (isValidMove(newX, newY)) {
+        possibleMoves.push([newX, newY]);
+      }
 }
 
 }

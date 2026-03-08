@@ -50,3 +50,10 @@ while (queue.length > 0) {
     }
 
     const nextMoves = getKnightMoves(position);
+
+    for (let move of nextMoves) {
+
+      if (!visited.has(move.toString())) {
+
+        visited.add(move.toString());
+      }}

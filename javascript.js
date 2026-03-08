@@ -39,3 +39,5 @@ while (queue.length > 0) {
     const current = queue.shift();
     const position = current.position;
     const path = current.path;}
+
+    if (position[0] === end[0] && position[1] === end[1]) {}
